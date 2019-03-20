@@ -1,9 +1,3 @@
-#############################################
-#Program name:check
-#Author: Fengbiao Mao
-#Email:maofengbiao08@163.com || 524573104@qq.com || maofengbiao@gmail.com
-#Tel:18810276383
-##############################################
 #!/usr/bin/perl -w
 use strict;
 use File::Basename;
