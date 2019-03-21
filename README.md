@@ -35,8 +35,7 @@ Input format:
 Output format:
 
 "Chr, Start, End, Ref, Alt, Func.refGene, symbol, effect, Variant_Type, cytoBand, Ref/Alt, chromosome_chain, Variant_Type, NOID, Chr, Start, End, RBP_Var_score, CLIP:, CLIP, miRNA:, miRNA, Motif:, Motif, Energy:, Energy, p_value";
-1 - 14 are the same with input format;
-
+(1 - 14 are the same with input format)
    15) Chr: chromosome
    16) Start: start position
    17) End： end position
