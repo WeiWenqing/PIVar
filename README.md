@@ -3,14 +3,17 @@
 
 To investigate the potential impact of genomic mutations on post-transcriptional regulation, we developed a new heuristic scoring system, PIVar, according to the functional confidence of variants based on experimental data of genome-wide association studies (GWAS), expression quantitative trait locus (eQTL), CLIP-seq (cross-linking and immunoprecipitation followed by high-throughput sequencing) derived RBP binding sites, and miRNA targets. The scoring system represents with increasing confidence if a variant lies in more functional elements. To evaluate the impact of RBP binding by mutations, we employed LS-GKM (10-mer) and deltaSVM to predict the impact of SNVs on the binding of specific RBPs by calculating the delta SVM scores. We also employed the RNAsnp or RNAfold to estimate the mutation effects on local RNA secondary structure, and calculated the empirical P values based on the base pair probabilities of mutant RNA sequences, or cumulative probabilities of the Poisson distribution, respectively. Only the functional SNVs produces >5 change in gkm-SVM scores for the effect of RBP binding, and P-value < 0.1 and free energy change >1 for the effect of SNVs on RNA secondary structure change were determined to be a piSNVs. Alternative allele of certain genetic mutation may confer different binding specificity for an RBP, resulting in allele-specific functional consequences.
 
-## 2. Preparation files
+## 2. Prepare annotation and required softwares
 
 PIVar annotation files could be downloaded from http://159.226.67.237/sun/PIVar/;
 Before running the pipeline, you should download and install dependent software ViennaRNA-2.4.10, RNAsnp-1.2 and bedtools2;
 And prepare the necessary input file, like example.input(remove the header), format detail below;
+
+## 3. Install and run pipeline
+
 In pipeline folder, you should run the work* shell files in turn;
 
-## 3. Input and output format
+## 4. Input and output format
 
 ### Input format:
 
