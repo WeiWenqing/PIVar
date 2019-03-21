@@ -1,6 +1,6 @@
 workdir=~/example
 bin=~/bin
-data=~/data
+data=~/PIVar-data
 distance=2000
 input=example.input
 cd $workdir
