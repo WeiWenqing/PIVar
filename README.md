@@ -35,19 +35,19 @@ Input format:
 Output format:
 
 "Chr, Start, End, Ref, Alt, Func.refGene, symbol, effect, Variant_Type, cytoBand, Ref/Alt, chromosome_chain, Variant_Type, NOID, Chr, Start, End, RBP_Var_score, CLIP:, CLIP, miRNA:, miRNA, Motif:, Motif, Energy:, Energy, p_value";
-1) - 14) are the same with input format;
-   14) Chr: chromosome
-   15) Start: start position
-   16) End： end position
-   17) RBP_Var_score:1a, 1b, 1c, 1d, 1e, 2a, 2b, 2c, 2d, 3a, 3b, 4, 5 and 6
-   18) CLIP: CLIP title
-   19) CLIP: the mutation can influence the binding in the CLIP
-   20) miRNA: miRNA title
-   21) miRNA: the mutation can influence the binding with miRNA
-   22) Motif: Motif title
-   23) Motif: the mutation can influence the binding with motif
-   24) Energy: Energy title
-   25) Energy: the energy change of the transcripts of mutation
-   26) p_value: probability value of energy change
+1 - 14 are the same with input format;
+   15) Chr: chromosome
+   16) Start: start position
+   17) End： end position
+   18) RBP_Var_score:1a, 1b, 1c, 1d, 1e, 2a, 2b, 2c, 2d, 3a, 3b, 4, 5 and 6
+   19) CLIP: CLIP title
+   20) CLIP: the mutation can influence the binding in the CLIP
+   21) miRNA: miRNA title
+   22) miRNA: the mutation can influence the binding with miRNA
+   23) Motif: Motif title
+   24) Motif: the mutation can influence the binding with motif
+   25) Energy: Energy title
+   26) Energy: the energy change of the transcripts of mutation
+   27) p_value: probability value of energy change
  
 
