@@ -1,12 +1,12 @@
 #!/bin/bash
 workdir=~/example
 bin=~/bin
-data=~/data
+data=~/PIVar-data
 
 mkdir -p $workdir/Score/SNP
 cd $workdir/Score
 
-for i in CLIP Motif miRNA eQTL;do ln -sf $data/RBPSNP/human/Score/db/$i; done
+for i in CLIP Motif miRNA eQTL;do ln -sf $data/$i; done
 
 cd $workdir/Score/SNP
 awk -F "\t" '{print $14"\t"$15"\t"$16"\t"$12}' ../../Transcript_RBP_SNP.filtered.strand.energy.txt  > energy.bed
