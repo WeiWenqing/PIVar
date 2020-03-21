@@ -54,4 +54,4 @@ In pipeline folder, you should run the work* shell files in turn;
    27) p_value: probability value of energy change
  
 ## Citation: 
-Prevalence and architecture of posttranscriptionally impaired synonymous mutations in 8,320 genomes across 22 cancer types. Nucleic Acids Research, 2020.
+Prevalence and architecture of posttranscriptionally impaired synonymous mutations in 8,320 genomes across 22 cancer types. Nucleic Acids Res. 2020 Feb 20;48(3):1192-1205
