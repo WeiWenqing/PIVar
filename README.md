@@ -5,7 +5,7 @@ To investigate the potential impact of genomic mutations on post-transcriptional
 
 ## 2. Prepare annotation and required softwares
 
-PIVar annotation files could be downloaded from http://159.226.67.237/sun/PIVar/; We updated PIVAR algorithm to evaluate the impact of mutations on posttranscriptional regulation by adding the latest 318 eCLIP-seq data from ENCODE (112 RBPs) to identify piSNVs, which replaced file "CLIP.tar.gz" by new file "new-CLIP.tar.gz" (2022/03), which could disrupt the binding between RNAs and RBPs;
+PIVar annotation files could be downloaded from http://159.226.67.237/sun/PIVar/; We updated PIVAR algorithm to evaluate the impact of mutations on posttranscriptional regulation by adding the latest 318 eCLIP-seq data from ENCODE (112 RBPs) to identify piSNVs, which replaced file "CLIP.tar.gz" by new file "new-CLIP.tar.gz" (2022/08), which could disrupt the binding between RNAs and RBPs;
 
 Before running the pipeline, you should download and install dependent software ViennaRNA-2.4.10, RNAsnp-1.2 and bedtools2;
 And prepare the necessary input file, like example.input(remove the header), format detail below;
