@@ -22,7 +22,7 @@ In pipeline folder, you should run the work* shell files in turn;
 "Chr Start End Ref Alt Func.refGene symbol effect Variant_Type cytoBand Ref/Alt chromosome_chain Variant_Type NOID";
    1) Chr: chromosome
    2) Start: start position
-   3) End： end position
+   3) End: end position
    4) Ref: reference allele
    5) Alt: altered allele
    6) Func.refGene: gene region
